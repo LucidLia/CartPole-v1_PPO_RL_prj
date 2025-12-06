@@ -1,0 +1,10 @@
+algo,seed,clip_eps,ent_coef,mean_return_tail,episodes_or_steps,elapsed_sec,device
+REINFORCE,0,,,33.1,600,22.45,cuda
+REINFORCE,1,,,33.64,600,24.3,cuda
+REINFORCE,2,,,39.65,600,25.22,cuda
+PPO,0,0.1,0.0,297.98,100000,111.21,cuda
+PPO,1,0.1,0.0,290.26,100000,110.79,cuda
+PPO,2,0.1,0.0,364.22,100000,114.41,cuda
+PPO,0,0.2,0.0,212.2,100000,224.0,cuda
+PPO,1,0.2,0.0,282.08,100000,215.55,cuda
+PPO,2,0.2,0.0,292.54,100000,215.03,cuda
